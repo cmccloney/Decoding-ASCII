@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "functions.c"
 
 void convert(char *, int *);
 void encryptOne(char*,int *,int);
