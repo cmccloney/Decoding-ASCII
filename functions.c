@@ -1,3 +1,8 @@
+void convert(char *, int *);
+void encryptOne(char *,int *,int);
+void encryptTwo(char *,int *,int);
+void decrypt(char *,char *,int *,int *);
+
 void convert(char line[40], int line1[40]){
     int i = 0;
     while(i < 40){
