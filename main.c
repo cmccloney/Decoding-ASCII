@@ -3,11 +3,6 @@
 #include <string.h>
 #include "functions.c"
 
-void convert(char *, int *);
-void encryptOne(char*,int *,int);
-void encryptTwo(char*,int *,int);
-void decrypt(char*,char*,int*,int*);
-
 int main(){
     char* first = (char*)malloc(40 * sizeof(char));
     char* second = (char*)malloc(40 * sizeof(char));
